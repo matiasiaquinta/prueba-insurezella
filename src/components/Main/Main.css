@@ -1,0 +1,501 @@
+/** FIRST **/
+section.first {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: var(--background-main);
+}
+
+section.first div {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+  margin-left: 200px;
+}
+
+section.first div h1 {
+  text-transform: uppercase;
+  font-size: 2.6em;
+  margin: 0;
+  color: var(--title-color);
+}
+
+section.first div button {
+  text-transform: uppercase;
+  font-size: 1em;
+  width: fit-content;
+  padding: 8px 30px;
+  border-radius: 30px;
+  background-color: var(--background-button);
+  color: white;
+  font-size: 1.1em;
+  font-weight: 700;
+}
+
+section.first div button:hover {
+  background-color: rgb(0, 132, 255);
+}
+
+section.first img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.first p {
+  color: var(--secondary-color);
+}
+
+/** SECOND **/
+section.second > div.dots {
+  display: none;
+  width: fit-content;
+}
+
+section.second {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.second > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+}
+
+.service-card {
+  width: 230px;
+  height: 230px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px 3px rgba(0, 42, 255, 0.4);
+}
+
+.service-card h1 {
+  width: 70%;
+  font-size: 1.5em;
+}
+
+/** THIRD **/
+.third {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.third img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.third-title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.third-title h1 {
+  margin: 0;
+  font-size: 2.3em;
+  color: var(--primary-color);
+}
+
+.third-title p {
+  color: var(--secondary-color);
+}
+
+.third button {
+  background-color: var(--background-button-02);
+  color: white;
+  padding: 8px 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.third button:hover {
+  background-color: rgb(45, 119, 255);
+}
+
+.third-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+  gap: 30px;
+}
+
+.third-info div {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.third-info div img {
+  width: 20%;
+}
+
+.third-info div span {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/** FOUR **/
+.four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-pickCard);
+}
+
+.four .four-title {
+  width: 80%;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 60px 0;
+  font-size: 2.3em;
+}
+
+.four-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  width: 100%;
+  max-width: 1000px;
+  gap: 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.pick-card {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.pick-card h1 {
+  margin: 10px 0;
+  font-size: 1.3em;
+  color: var(--title-color);
+}
+
+.pick-card p {
+  margin: 0;
+  font-size: 0.8em;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+/** FIVE **/
+.five {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.five img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.five button {
+  background-color: var(--background-button-02);
+  color: white;
+  padding: 5px 70px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.five-title {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+
+.five-title h1 {
+  margin: 0;
+  font-size: 2.3em;
+  color: var(--primary-color);
+}
+
+.five-title p {
+  color: var(--secondary-color);
+}
+
+.five-title button:hover {
+  background-color: rgb(77, 139, 255);
+}
+
+/** SIX **/
+.six {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.six h1 {
+  font-size: 2em;
+}
+
+.six-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 80px;
+  width: 50%;
+  max-width: 1200px;
+}
+
+section.six > div.dots {
+  display: none;
+  width: fit-content;
+}
+
+.help-card {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 25px;
+}
+
+.help-card h1 {
+  margin: 0;
+  padding: 0 20px;
+  font-size: 1.5em;
+}
+
+.help-card p {
+  margin: 0;
+  padding: 0 20px;
+}
+
+.help-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.help-card button {
+  width: fit-content;
+  font-weight: 500;
+  color: rgb(57, 136, 255);
+  margin-left: 10px;
+}
+
+/*
+_______________________
+  
+  MEDIA QUERIES - RESPONSIVE
+_______________________ 
+
+*/
+
+@media (max-width: 1130px) {
+  /** First **/
+  section.first {
+    justify-content: end;
+  }
+  section.first div {
+    width: 100%;
+    margin-left: 50px;
+  }
+
+  /** Second **/
+  section.second .service-card:nth-child(n + 3) {
+    /* Oculto a partir del 3 card */
+    display: none;
+  }
+
+  section.second > div.dots {
+    display: flex;
+    gap: 12px;
+  }
+
+  section.second > div.dots span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(36, 131, 255);
+  }
+
+  /** Third **/
+  .third {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .third .third-img {
+    width: 80%;
+    margin-right: 150px;
+  }
+
+  .third .third-title {
+    margin-left: 300px;
+    width: 60%;
+  }
+
+  /** Four **/
+  .four .four-title {
+    font-size: 1.6em;
+  }
+
+  /** Five **/
+  .five {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .five .five-img {
+    width: 80%;
+    margin-right: 150px;
+  }
+
+  .five .five-title {
+    margin-left: 300px;
+    width: 60%;
+  }
+
+  /** Six **/
+  section.six > div.dots {
+    display: flex;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  section.six > div.dots span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(36, 131, 255);
+  }
+
+  .six-info .help-card:nth-child(n + 3) {
+    /* Oculto a partir del 3 card */
+    display: none;
+  }
+
+  .six-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  section.first img {
+    width: 50%;
+  }
+
+  section.first div {
+    width: 90%;
+    margin: 0 20px 20px 20px;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 700px) {
+  section.first {
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  section.first img {
+    width: 150%;
+    height: 500px;
+  }
+
+  .third,
+  .five {
+    width: 90%;
+    justify-content: center;
+  }
+
+  .third .third-img,
+  .five .five-img {
+    width: 90%;
+    margin: 0;
+  }
+
+  .third .third-title,
+  .five .five-title {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .third .third-info {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  section.second > div {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  section.second > div.dots {
+    flex-direction: row;
+  }
+
+  .third-info {
+    flex-direction: column;
+  }
+
+  .third-info div {
+    width: 80%;
+  }
+
+  .six-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

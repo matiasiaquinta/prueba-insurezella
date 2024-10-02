@@ -1,0 +1,35 @@
+/** General CSS **/
+
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  border: 0;
+}
+
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --title-color: #005cff;
+  --title-footer: #131d89;
+
+  --background-nav: #2e77f9;
+  --background-main: #e4dede;
+  --background-pickCard: #e9f5ff;
+  --background-button: #00b1ff;
+  --background-button-02: #0055ff;
+  --background-footer: #005eff;
+
+  --hover-button: #131d89;
+  --selected-text: #3e5d94;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+}
